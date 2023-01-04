@@ -1,0 +1,56 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "포트폴리오 사이트 입니다.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --env development",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanghunK/portfolio_site.git"
+  },
+  "author": "FYH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanghunK/portfolio_site/issues"
+  },
+  "homepage": "https://github.com/kanghunK/portfolio_site#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20",
+    "@babel/preset-env": "^7.20",
+    "@babel/preset-react": "^7.18",
+    "@babel/preset-typescript": "^7.18",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "@types/loadable__component": "^5.13",
+    "@types/node": "^18.1",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router": "^5.1",
+    "@types/react-router-dom": "^5.3",
+    "@types/webpack": "^5.28",
+    "@types/webpack-bundle-analyzer": "^4.6",
+    "@types/webpack-dev-server": "^4.7",
+    "babel-loader": "^9.1",
+    "eslint": "^8.31",
+    "eslint-config-prettier": "^8.6",
+    "eslint-config-react-app": "^7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "fork-ts-checker-webpack-plugin": "^7.2",
+    "prettier": "^2.8",
+    "react-refresh": "^0.14",
+    "webpack": "^5.75",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11"
+  },
+  "dependencies": {
+    "@jjordy/swr-devtools": "^2.2.0",
+    "axios": "^1.2.2",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-router-dom": "^6.6.1",
+    "ts-node": "^10.9.1",
+    "webpack-bundle-analyzer": "^4.7.0"
+  }
+}
