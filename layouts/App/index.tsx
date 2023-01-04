@@ -1,8 +1,15 @@
+import loadable from '@loadable/component';
 import React from 'react';
-import { Route, Routes } from 'react-router';
+import { Route, Switch } from 'react-router';
+
+const Home = loadable(() => import('@pages/Home'));
 
 const App = () => {
-  return <Routes></Routes>;
+  return (
+    <Switch>
+      <Route path="/" component={Home} />
+    </Switch>
+  );
 };
 
 export default App;
